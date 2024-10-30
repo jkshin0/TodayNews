@@ -1,0 +1,18 @@
+/* components/CategoryNav.module.css */
+.categoryNav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.categoryNav a {
+    color: #768088;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+.categoryNav a:hover {
+    color: #dd783f;
+}
