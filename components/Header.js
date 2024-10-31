@@ -3,6 +3,9 @@ import styles from './Header.module.css';
 const Header = () => {
     return (
         <div className={styles.header}>
+            <video autoPlay loop muted className={styles.videoBackground}>
+                <source src="/play2.mp4" type="video/mp4" />
+            </video>
             <nav className={styles.nav}>
                 <div className={styles.logo}>Escape.</div>
                 <div className={styles.menu}>
